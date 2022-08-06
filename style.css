@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+}
+.container {
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  /* border: 1px solid red; */
+  padding: 0 30px;
+}
+header nav a {
+  color: #000;
+  font-weight: 400;
+  padding: 6px 12px;
+  margin: 0 5px;
+  opacity: 0.9;
+}
+header nav a:hover {
+  opacity: 1;
+}
+header span {
+  font-family: "Koulen", cursive;
+  letter-spacing: 4px;
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+}
+header button {
+  width: 150px;
+  height: 45px;
+  /* font-weight: 600; */
+  border: none;
+  background: #000;
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+header button:hover {
+  opacity: 1;
+  letter-spacing: 1.5px;
+}
+.container main:nth-child(2) {
+  width: 100%;
+  background: url("./image/bg.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-text {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-text span {
+  margin: 5px 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+}
+.main-text p {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.main-text button {
+  width: 200px;
+  height: 45px;
+  /* font-weight: 600; */
+  border: none;
+  background: #000;
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.main-text button:hover {
+  opacity: 1;
+  letter-spacing: 1px;
+}
+.tab-name {
+  width: 100%;
+  padding: 25px 0;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tab-name span {
+  font-size: 36px;
+  color: black;
+  font-weight: 600;
+  margin: 12px 0;
+}
+.tab-name p {
+  font-weight: 700;
+  opacity: 0.6;
+  font-size: 14px;
+  margin: 7px 0;
+  width: 60%;
+  text-align: center;
+}
+.design {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.design .design-card {
+  width: 45%;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.design .design-card img {
+  width: 100%;
+}
+.design .design-card span {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+.product {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.product .box {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 5px 10px;
+}
+.product .box img {
+  width: 100%;
+  margin: 10px 0;
+}
+.product .box span {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin: 5px 0;
+}
+.container main:nth-child(7) {
+  width: 100%;
+  background: url("././image/office-bg.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
